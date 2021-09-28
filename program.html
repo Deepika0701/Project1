@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="program-header">
+        <nav>
+            <a href="index.html">FITNESS STUDIO</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()">X</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="program.html">PROGRAMS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()">X</i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Programs</h1>
+            
+            <a class="hero-btn" href="">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- programs  -->
+    <section class="program">
+        <h1>PROGRAMS WE OFFER</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <div class="row">
+            <div class="program-col">
+                <h3>Calisthenics</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem cum ab quos accusantium,
+                    nesciunt, alias pariatur commodi officiis error ducimus. Inventore natus nemo tempora non, obcaecati
+                    cum vero molestiae.</p>
+            </div>
+            <div class="program-col">
+                <h3>Weight Lifting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem cum ab quos accusantium,
+                    nesciunt, alias pariatur commodi officiis error ducimus. Inventore natus nemo tempora non, obcaecati
+                    cum vero molestiae.</p>
+            </div>
+            <div class="program-col">
+                <h3>Zumba</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem cum ab quos accusantium,
+                    nesciunt, alias pariatur commodi officiis error ducimus. Inventore natus nemo tempora non, obcaecati
+                    cum vero molestiae.</p>
+            </div>
+
+        </div>
+    </section>
+
+<!-- FACILITIES -->
+<section class="facility">
+    <h1>OUR FACILITIES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <div class="row">
+        <div class="facility-col">
+            <img src="http://www.betterhealthstudios.com/wp-content/uploads/2016/09/fitness-floor-1-1024x683.jpg"
+                alt="">
+            <div class="layer">
+                <h3>WORKOUT AREA</h3>
+            </div>
+        </div>
+        <div class="facility-col">
+            <img src="https://i.pinimg.com/originals/a1/4e/d7/a14ed7a4e25c188e7dc5cf9567e60cae.jpg" alt="">
+            <div class="layer">
+                <h3>INDOOR CALISTHENIC</h3>
+            </div>
+        </div>
+        <div class="facility-col">
+            <img src="https://thechiclife.com/wp-content/uploads/2016/09/img_0307-1.jpg" alt="">
+            <div class="layer">
+                <h3>ZUMBA AREA</h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="facility-col">
+            <img src="https://live.staticflickr.com/4392/36355085803_703b050a0a_b.jpg" alt="">
+            <div class="layer">
+                <h3>REST AREA</h3>
+            </div>
+        </div>
+        <div class="facility-col">
+            <img src="https://static.turbosquid.com/Preview/2016/12/08__01_44_14/00.jpg4BEC1286-6BFC-447B-BA1B-EF61E4195A88Large.jpg"
+                alt="">
+            <div class="layer">
+                <h3>LOCKERS</h3>
+            </div>
+        </div>
+        <div class="facility-col">
+            <img src="https://i.pinimg.com/736x/92/76/60/927660fb5e21634b0f6853e756df9408--bath-fitters-better-bathrooms.jpg"
+                alt="">
+            <div class="layer">
+                <h3>SHOWER</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+ <!-- footer  -->
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quia quaerat reiciendis, autem enim ab ipsa iure, nemo,<br> magnam dicta laudantium laborum quasi nobis nesciunt culpa explicabo doloremque? Quas, repellat? Aliquam?</p>
+     <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+     </div>
+ </section>
+
+    <script>
+        // Javascript to toggle menu in other media 
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

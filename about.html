@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">FITNESS STUDIO</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()">X</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="program.html">PROGRAMS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()">X</i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!-- About us content  -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Best Gym in Delhi</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora temporibus nisi voluptatibus eveniet placeat quia amet distinctio. Deserunt eligendi rerum aliquid sunt repudiandae, blanditiis quisquam earum aspernatur ducimus minus quo.</p>
+            <a href="" class="hero-btn red-btn" >Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="images/gym5.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+  
+
+ <!-- footer  -->
+ <section class="footer">
+     <h4>About Us</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quia quaerat reiciendis, autem enim ab ipsa iure, nemo,<br> magnam dicta laudantium laborum quasi nobis nesciunt culpa explicabo doloremque? Quas, repellat? Aliquam?</p>
+     <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+     </div>
+ </section>
+
+    <script>
+        // Javascript to toggle menu in other media 
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
